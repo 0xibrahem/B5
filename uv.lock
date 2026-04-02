@@ -117,12 +117,14 @@ source = { virtual = "." }
 dependencies = [
     { name = "ipykernel" },
     { name = "jupyturtle" },
+    { name = "requests" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "ipykernel", specifier = ">=7.2.0" },
     { name = "jupyturtle", specifier = ">=2024.4.1" },
+    { name = "requests", specifier = ">=2.33.1" },
 ]
 
 [[package]]
